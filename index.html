@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"   href="style.css">
+    <title>Student form</title>
+</head>
+<body>
+<center>
+<h1>STUDENT FORM</h1>
+<form>
+    <table>
+        <tr>
+            <td>Name :</td>  <td> <input type="text" placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+            <td>Department :</td> <td> <input type="text" placeholder="Enter your department"></td>
+        </tr>
+        <tr>
+            <td>Preferred Sport :</td> 
+            <td> 
+                <input type="radio" name="sports">Cricket
+            </br>
+                <input type="radio" name="sports">Baseball
+           </br>
+                <input type="radio" name="sports">Hockey
+            </td>
+        </tr>
+        <tr>
+            <td>Languages Known :</td> 
+            <td> 
+                <input type="checkbox" >Tamil
+            </br>
+                <input type="checkbox" >English
+           </br>
+                <input type="checkbox" >Hindi
+            </br>
+                <input type="checkbox" >Japanese
+            </td>
+        </tr>
+        <tr>
+            <td><input type="reset"></td>
+            <td><button onclick="alertmessage()">Submit</button></td>
+        </tr>
+    </table>
+</form>
+<script>
+    function alertmessage()
+    {
+        alert("Success!!!")
+    }
+</script>
+</center>
+</body>
+</html>
